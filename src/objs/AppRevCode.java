@@ -33,6 +33,14 @@ public class AppRevCode
 		classcode = new String();
 		refcode = new String();
 	}
+	
+/*Construct the RevCode 
+*
+* @param appid  Application Id
+* @param revid  Reverse Id
+* @param classcode Code for the class
+* @param refcode   Reference code
+*/
 
 	public AppRevCode(String appid, String revid, String classcode,
 			String refcode) {
@@ -42,35 +50,70 @@ public class AppRevCode
 		this.classcode = classcode;
 		this.refcode = refcode;
 	}
+/*Get method 
+*
+* @return appid ApplicationID
+*/
 
 	public String getAppid() {
 		return appid;
 	}
-
+	
+/*Set method 
+*
+* @param appid The application id thats going to be set
+*/
 	public void setAppid(String appid) {
 		this.appid = appid;
 	}
+	
+/*Get method 
+*
+* @return revid
+*/
 
 	public String getRevid() {
 		return revid;
 	}
+	
+/*Set method 
+*
+* @param revid The revid thats going to be set
+*/
 
 	public void setRevid(String revid) {
 		this.revid = revid;
 	}
+	
+/*Get method 
+*
+* @return classcode
+*/
 
 	public String getClasscode() {
 		return classcode;
 	}
-
+	
+/*Set method 
+*
+* @param classcode The classcode thats going to be set
+*/
 	public void setClasscode(String classcode) {
 		this.classcode = classcode;
 	}
 
+/*Get method 
+*
+* @return refcode
+*/
 	public String getRefcode() {
 		return refcode;
 	}
 
+/*Set method 
+*
+* @param refcode The refcode thats going to be set
+*/
 	public void setRefcode(String refcode) {
 		this.refcode = refcode;
 	}
